@@ -1,2 +1,2 @@
-# R-Vectos-Matrixes
+# R-Vectos-Matrices
 All syntax related to Vector and Matrix operations 
