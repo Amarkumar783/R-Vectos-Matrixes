@@ -70,13 +70,15 @@ print(row)
 
 #5: Remove the third column from matrix p.
 P=matrix(c(2,4,3,1,5,7),nrow=2,ncol=3,byrow=TRUE)
-P_updated=P[,(-3)]
+P
+P_updated=P[,c(-1,-2)]
 P_updated
 
+
 #6: Add the column back again.
-newcolumn=matrix(c(2,4,3),nrow=1,ncol=3)
-newcolumn
-P_original=cbind(newcolumn,P_updated)
+P_del=P[,c(-3)]
+P_del
+P_original=cbind(P_del,P_updated)
 P_original
 
 #7:Create a matrix to represent the medal table
