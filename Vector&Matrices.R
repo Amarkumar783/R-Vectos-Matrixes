@@ -70,7 +70,7 @@ print(row)
 
 #5: Remove the third column from matrix p.
 P=matrix(c(2,4,3,1,5,7),nrow=2,ncol=3,byrow=TRUE)
-P_updated=P[-(1),]
+P_updated=P[,(-3)]
 P_updated
 
 #6: Add the column back again.
